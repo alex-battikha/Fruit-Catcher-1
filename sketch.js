@@ -50,10 +50,11 @@ function draw() {
     textSize(32);
     textFont(nunitoSemiBold);
     fill("white");
+
     text("Player 1: " + player.score, displayWidth/4-610, 50);
-    var tempPlayer = player.index-1;
-    console.log(player.index-1);
-    text("Player 2: " + tempPlayer.score, displayWidth/4-610, 85);
+    // var tempPlayer = player.index-1;
+    // console.log(player.index-1);
+    // text("Player 2: " + tempPlayer.score, displayWidth/4-610, 85);
   }
    if(gameState === 2) {
     game.end();
